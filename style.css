@@ -1,0 +1,134 @@
+/* only for home page */
+
+
+
+
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Josefin Sans',sans-serif;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 17px 18px;
+  text-decoration: none;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:#00b894;
+  color:black;
+}
+
+
+
+body{
+background-image: url('https://wallpapercave.com/wp/wp2037797.jpg'>
+background-repeat: no-repeat;
+background-size:cover;
+ }
+
+main{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+section{
+
+}
+
+section h3{
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+
+section p{
+  font-size: 25px;
+  color: #eee;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+
+}
+
+section a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all .5s ease;
+}
+
+section .btnone{
+  /*background: #00b894;*/
+  background: #fff;
+  color: black;
+
+}
+.btnone:hover{
+  background: #00b894;
+  /*background: #fff;*/
+  color: black;
+}
+
+section .btntwo{
+  background: #00b894;
+  /*background: #fff;*/
+  color: black;
+
+}
+
+.btntwo:hover{
+  background: #fff;
+  color: black;
+
+}
+
+.change_content:after{
+  content:'';
+  animation:changetext 10s infinite linear;
+  color:#00b894;
+}
+
+@keyframes changetext{
+  0%{content:"Darjeeling";}
+    20%{content:"Agra";}
+      35%{content:"Jaipur";}
+        60%{content:"Kerala";}
+         80%{content:"Delhi";}
+         100%{content:"Mumbai";}
+}*/

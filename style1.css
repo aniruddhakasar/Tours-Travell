@@ -1,0 +1,71 @@
+/* only for login page */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Josefin Sans',sans-serif;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;
+/*background-image: url('https://cutewallpaper.org/21/tourism-wallpaper/Tour-Place-Wallpaper-Hd-Love-Wallpapers.jpg');*/
+background-image: url('https://i.pinimg.com/originals/dd/91/4c/dd914c6cca076f8cebb463a81e73e7e5.jpg');
+}
+form {border: 3px solid #f1f1f1;
+width: 80%;
+align-self:center;
+    margin-left: 10%;
+  background-color: #fff;}
+
+
+
+
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
